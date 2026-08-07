@@ -1,0 +1,8 @@
+{
+    "Message": "$(L,Action_Sync_Started)",
+    "CompletionMessage": "$(L,Action_Sync_Completed)",
+    "CompletionTimeout": 7,
+    "OnSuccess": "/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/UploadOffline.action",
+    "OnFailure": "/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/SyncFailureMessage.action",
+    "_Type": "Action.Type.ProgressBanner"
+}

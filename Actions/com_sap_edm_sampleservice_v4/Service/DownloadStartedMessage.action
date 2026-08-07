@@ -1,0 +1,7 @@
+{
+    "Message": "$(L,Action_Download_Started)",
+    "CompletionMessage": "$(L,Action_Download_Successful)",
+    "CompletionTimeout": 7,
+    "OnSuccess": "/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/DownloadOffline.action",
+    "_Type": "Action.Type.ProgressBanner"
+}
