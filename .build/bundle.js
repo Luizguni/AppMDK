@@ -612,9 +612,9 @@ function CheckForSyncError(context) {
 (module, __unused_webpack_exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js");
+var ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js");
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.
 
@@ -637,7 +637,7 @@ Page
 
 { color: @mdkYellow1; background-color: @mdkRed1; }
 */
-`, "",{"version":3,"sources":["webpack://./build.definitions/sampleapp/Styles/Styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n"],"sourceRoot":""}]);
+`, ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -651,9 +651,9 @@ module.exports = ___CSS_LOADER_EXPORT___;
 (module, __unused_webpack_exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js");
+var ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js");
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.
 
@@ -675,7 +675,7 @@ Page
 .MyButton
 
 { color: @mdkYellow1; background-color: @mdkRed1; }
-*/`, "",{"version":3,"sources":["webpack://./build.definitions/sampleapp/Styles/Styles.less"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/"],"sourceRoot":""}]);
+*/`, ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -689,11 +689,11 @@ module.exports = ___CSS_LOADER_EXPORT___;
 (module, __unused_webpack_exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js");
+var ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js");
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ``, ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -707,11 +707,11 @@ module.exports = ___CSS_LOADER_EXPORT___;
 (module, __unused_webpack_exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js");
+var ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js");
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js */ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ``, ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -813,28 +813,17 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ },
 
-/***/ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js"
-/*!************************************************************************************************************************************!*\
-  !*** ../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/sourceMaps.js ***!
-  \************************************************************************************************************************************/
+/***/ "../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js"
+/*!**************************************************************************************************************************************!*\
+  !*** ../../../home/user/.vscode/data/User/globalStorage/sapse.mdk-editor/tools/node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
+  \**************************************************************************************************************************************/
 (module) {
 
 "use strict";
 
 
-module.exports = function (item) {
-  var content = item[1];
-  var cssMapping = item[3];
-  if (!cssMapping) {
-    return content;
-  }
-  if (typeof btoa === "function") {
-    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
-    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-    var sourceMapping = "/*# ".concat(data, " */");
-    return [content].concat([sourceMapping]).join("\n");
-  }
-  return [content].join("\n");
+module.exports = function (i) {
+  return i[1];
 };
 
 /***/ },
@@ -875,7 +864,17 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":true,"_Type
   \*****************************************************************/
 (module) {
 
-module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0","ObjectHeader":{"Subhead":"{FirstName}","Footnote":"{EmailAddress}","Description":"{CustomerID}","StatusText":"{PhoneNumber}","DetailImage":"sap-icon://customer","DetailImageIsCircular":false,"BodyText":"{DateOfBirth}","HeadlineText":"{LastName}","StatusPosition":"Stacked","StatusImagePosition":"Leading","SubstatusImagePosition":"Leading"},"Visible":true},{"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{HouseNumber} {Street}","_Type":"KeyValue.Type.Item","_Name":"KeyValue0","KeyName":"Address","Visible":true},{"Value":"{City}","_Type":"KeyValue.Type.Item","_Name":"KeyValue1","KeyName":"City","Visible":true},{"Value":"{PostalCode}","_Type":"KeyValue.Type.Item","_Name":"KeyValue2","KeyName":"Postal Code","Visible":true},{"Value":"{Country}","_Type":"KeyValue.Type.Item","_Name":"KeyValue3","KeyName":"Country","Visible":true}],"MaxItemCount":1,"Layout":{"NumberOfColumns":2}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"Customers_Detail","ActionBar":{"Items":[],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar"},"DesignTimeTarget":{"Service":"/sampleapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"ObjectHeader":{"Subhead":"{FirstName}","Footnote":"{EmailAddress}","Description":"{CustomerID}","StatusText":"{PhoneNumber}","DetailImage":"sap-icon://customer","DetailImageIsCircular":false,"BodyText":"{DateOfBirth}","HeadlineText":"{LastName}","StatusPosition":"Stacked","StatusImagePosition":"Leading","SubstatusImagePosition":"Leading"},"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0","Visible":true},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{HouseNumber} {Street}","_Type":"KeyValue.Type.Item","_Name":"KeyValue0","KeyName":"Address","Visible":true},{"Value":"{City}","_Type":"KeyValue.Type.Item","_Name":"KeyValue1","KeyName":"City","Visible":true},{"Value":"{PostalCode}","_Type":"KeyValue.Type.Item","_Name":"KeyValue2","KeyName":"Postal Code","Visible":true},{"Value":"{Country}","_Type":"KeyValue.Type.Item","_Name":"KeyValue3","KeyName":"Country","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}}]}],"DesignTimeTarget":{"Service":"/sampleapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Type":"Page","_Name":"Customers_Detail","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Edit","Width":18,"Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/sampleapp/Actions/NavToCustomers_Edit.action"}],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar"}}
+
+/***/ },
+
+/***/ "./build.definitions/sampleapp/Pages/Customers_Edit.page"
+/*!***************************************************************!*\
+  !*** ./build.definitions/sampleapp/Pages/Customers_Edit.page ***!
+  \***************************************************************/
+(module) {
+
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0","Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCFirstName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"First Name","PlaceHolder":"{FirstName}","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCLastName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Last Name","PlaceHolder":"{LastName}","Enabled":true,"IsEditable":true},{"Value":"{PhoneNumber}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCPhone","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Phone","PlaceHolder":"{PhoneNumber}","KeyboardType":"Phone","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCEmail","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Email","PlaceHolder":"EmailAddress","KeyboardType":"Email","Enabled":true,"IsEditable":true}],"Layout":{"NumberOfColumns":1}}]}],"_Type":"Page","_Name":"Customers_Edit","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Item","SystemItem":"Cancel","Width":18,"Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/sampleapp/Actions/CloseModalPage_Cancel.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Save","Width":18,"Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/sampleapp/Actions/Customers_UpdateEntity.action"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar","Caption":"Update Customer"}}
 
 /***/ },
 
@@ -1079,6 +1078,16 @@ module.exports = {"_Type":"Action.Type.ClosePage"}
 
 /***/ },
 
+/***/ "./build.definitions/sampleapp/Actions/Customers_UpdateEntity.action"
+/*!***************************************************************************!*\
+  !*** ./build.definitions/sampleapp/Actions/Customers_UpdateEntity.action ***!
+  \***************************************************************************/
+(module) {
+
+module.exports = {"_Type":"Action.Type.ODataService.UpdateEntity","ActionResult":{"_Name":"Customers_UpdateEntity"},"OnFailure":"/sampleapp/Actions/UpdateCustomerEntityFailureMessage.action","OnSuccess":"/sampleapp/Actions/CloseModalPage_Complete.action","Target":{"Service":"/sampleapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers","ReadLink":"{@odata.readLink}"},"Properties":{"City":"","EmailAddress":"#Control:FCEmail/#Value","FirstName":"#Control:FCFirstName/#Value","LastName":"#Control:FCLastName/#Value","PhoneNumber":"#Control:FCPhone/#Value"}}
+
+/***/ },
+
 /***/ "./build.definitions/sampleapp/Actions/ErrorArchive/ErrorArchive_SyncFailure.action"
 /*!******************************************************************************************!*\
   !*** ./build.definitions/sampleapp/Actions/ErrorArchive/ErrorArchive_SyncFailure.action ***!
@@ -1199,6 +1208,16 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 
 /***/ },
 
+/***/ "./build.definitions/sampleapp/Actions/NavToCustomers_Edit.action"
+/*!************************************************************************!*\
+  !*** ./build.definitions/sampleapp/Actions/NavToCustomers_Edit.action ***!
+  \************************************************************************/
+(module) {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_Edit"},"PageToOpen":"/sampleapp/Pages/Customers_Edit.page","ModalPage":true}
+
+/***/ },
+
 /***/ "./build.definitions/sampleapp/Actions/NavToCustomers_List.action"
 /*!************************************************************************!*\
   !*** ./build.definitions/sampleapp/Actions/NavToCustomers_List.action ***!
@@ -1206,6 +1225,16 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 (module) {
 
 module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_List"},"PageToOpen":"/sampleapp/Pages/Customers_List.page"}
+
+/***/ },
+
+/***/ "./build.definitions/sampleapp/Actions/UpdateCustomerEntityFailureMessage.action"
+/*!***************************************************************************************!*\
+  !*** ./build.definitions/sampleapp/Actions/UpdateCustomerEntityFailureMessage.action ***!
+  \***************************************************************************************/
+(module) {
+
+module.exports = {"_Type":"Action.Type.Message","ActionResult":{"_Name":"UpdateCustomerEntityFailureMessage"},"Message":"Failed to Save Customer Updates - {#ActionResults:Customers_UpdateEntity/error}","Title":"Update Customer","OKCaption":"OK"}
 
 /***/ },
 
@@ -1402,6 +1431,7 @@ let sampleapp_actions_com_sap_edm_sampleservice_v4_service_initializeofflinesucc
 let sampleapp_actions_com_sap_edm_sampleservice_v4_service_syncfailuremessage_action = __webpack_require__(/*! ./sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/SyncFailureMessage.action */ "./build.definitions/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/SyncFailureMessage.action")
 let sampleapp_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action = __webpack_require__(/*! ./sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/SyncStartedMessage.action */ "./build.definitions/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/SyncStartedMessage.action")
 let sampleapp_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action = __webpack_require__(/*! ./sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/UploadOffline.action */ "./build.definitions/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/UploadOffline.action")
+let sampleapp_actions_customers_updateentity_action = __webpack_require__(/*! ./sampleapp/Actions/Customers_UpdateEntity.action */ "./build.definitions/sampleapp/Actions/Customers_UpdateEntity.action")
 let sampleapp_actions_errorarchive_errorarchive_syncfailure_action = __webpack_require__(/*! ./sampleapp/Actions/ErrorArchive/ErrorArchive_SyncFailure.action */ "./build.definitions/sampleapp/Actions/ErrorArchive/ErrorArchive_SyncFailure.action")
 let sampleapp_actions_errorarchive_navtoerrorarchive_detail_action = __webpack_require__(/*! ./sampleapp/Actions/ErrorArchive/NavToErrorArchive_Detail.action */ "./build.definitions/sampleapp/Actions/ErrorArchive/NavToErrorArchive_Detail.action")
 let sampleapp_actions_errorarchive_navtoerrorarchive_list_action = __webpack_require__(/*! ./sampleapp/Actions/ErrorArchive/NavToErrorArchive_List.action */ "./build.definitions/sampleapp/Actions/ErrorArchive/NavToErrorArchive_List.action")
@@ -1414,7 +1444,9 @@ let sampleapp_actions_logging_loguploadsuccessful_action = __webpack_require__(/
 let sampleapp_actions_logging_uploadlog_action = __webpack_require__(/*! ./sampleapp/Actions/Logging/UploadLog.action */ "./build.definitions/sampleapp/Actions/Logging/UploadLog.action")
 let sampleapp_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./sampleapp/Actions/Logging/UploadLogProgress.action */ "./build.definitions/sampleapp/Actions/Logging/UploadLogProgress.action")
 let sampleapp_actions_navtocustomers_detail_action = __webpack_require__(/*! ./sampleapp/Actions/NavToCustomers_Detail.action */ "./build.definitions/sampleapp/Actions/NavToCustomers_Detail.action")
+let sampleapp_actions_navtocustomers_edit_action = __webpack_require__(/*! ./sampleapp/Actions/NavToCustomers_Edit.action */ "./build.definitions/sampleapp/Actions/NavToCustomers_Edit.action")
 let sampleapp_actions_navtocustomers_list_action = __webpack_require__(/*! ./sampleapp/Actions/NavToCustomers_List.action */ "./build.definitions/sampleapp/Actions/NavToCustomers_List.action")
+let sampleapp_actions_updatecustomerentityfailuremessage_action = __webpack_require__(/*! ./sampleapp/Actions/UpdateCustomerEntityFailureMessage.action */ "./build.definitions/sampleapp/Actions/UpdateCustomerEntityFailureMessage.action")
 let sampleapp_globals_application_appdefinition_version_global = __webpack_require__(/*! ./sampleapp/Globals/Application/AppDefinition_Version.global */ "./build.definitions/sampleapp/Globals/Application/AppDefinition_Version.global")
 let sampleapp_globals_application_applicationname_global = __webpack_require__(/*! ./sampleapp/Globals/Application/ApplicationName.global */ "./build.definitions/sampleapp/Globals/Application/ApplicationName.global")
 let sampleapp_globals_application_supportemail_global = __webpack_require__(/*! ./sampleapp/Globals/Application/SupportEmail.global */ "./build.definitions/sampleapp/Globals/Application/SupportEmail.global")
@@ -1426,6 +1458,7 @@ let sampleapp_pages_application_about_page = __webpack_require__(/*! ./sampleapp
 let sampleapp_pages_application_support_page = __webpack_require__(/*! ./sampleapp/Pages/Application/Support.page */ "./build.definitions/sampleapp/Pages/Application/Support.page")
 let sampleapp_pages_application_useractivitylog_page = __webpack_require__(/*! ./sampleapp/Pages/Application/UserActivityLog.page */ "./build.definitions/sampleapp/Pages/Application/UserActivityLog.page")
 let sampleapp_pages_customers_detail_page = __webpack_require__(/*! ./sampleapp/Pages/Customers_Detail.page */ "./build.definitions/sampleapp/Pages/Customers_Detail.page")
+let sampleapp_pages_customers_edit_page = __webpack_require__(/*! ./sampleapp/Pages/Customers_Edit.page */ "./build.definitions/sampleapp/Pages/Customers_Edit.page")
 let sampleapp_pages_customers_list_page = __webpack_require__(/*! ./sampleapp/Pages/Customers_List.page */ "./build.definitions/sampleapp/Pages/Customers_List.page")
 let sampleapp_pages_errorarchive_errorarchive_detail_page = __webpack_require__(/*! ./sampleapp/Pages/ErrorArchive/ErrorArchive_Detail.page */ "./build.definitions/sampleapp/Pages/ErrorArchive/ErrorArchive_Detail.page")
 let sampleapp_pages_errorarchive_errorarchive_list_page = __webpack_require__(/*! ./sampleapp/Pages/ErrorArchive/ErrorArchive_List.page */ "./build.definitions/sampleapp/Pages/ErrorArchive/ErrorArchive_List.page")
@@ -1482,6 +1515,7 @@ module.exports = {
 	sampleapp_actions_com_sap_edm_sampleservice_v4_service_syncfailuremessage_action : sampleapp_actions_com_sap_edm_sampleservice_v4_service_syncfailuremessage_action,
 	sampleapp_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action : sampleapp_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action,
 	sampleapp_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action : sampleapp_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action,
+	sampleapp_actions_customers_updateentity_action : sampleapp_actions_customers_updateentity_action,
 	sampleapp_actions_errorarchive_errorarchive_syncfailure_action : sampleapp_actions_errorarchive_errorarchive_syncfailure_action,
 	sampleapp_actions_errorarchive_navtoerrorarchive_detail_action : sampleapp_actions_errorarchive_navtoerrorarchive_detail_action,
 	sampleapp_actions_errorarchive_navtoerrorarchive_list_action : sampleapp_actions_errorarchive_navtoerrorarchive_list_action,
@@ -1494,7 +1528,9 @@ module.exports = {
 	sampleapp_actions_logging_uploadlog_action : sampleapp_actions_logging_uploadlog_action,
 	sampleapp_actions_logging_uploadlogprogress_action : sampleapp_actions_logging_uploadlogprogress_action,
 	sampleapp_actions_navtocustomers_detail_action : sampleapp_actions_navtocustomers_detail_action,
+	sampleapp_actions_navtocustomers_edit_action : sampleapp_actions_navtocustomers_edit_action,
 	sampleapp_actions_navtocustomers_list_action : sampleapp_actions_navtocustomers_list_action,
+	sampleapp_actions_updatecustomerentityfailuremessage_action : sampleapp_actions_updatecustomerentityfailuremessage_action,
 	sampleapp_globals_application_appdefinition_version_global : sampleapp_globals_application_appdefinition_version_global,
 	sampleapp_globals_application_applicationname_global : sampleapp_globals_application_applicationname_global,
 	sampleapp_globals_application_supportemail_global : sampleapp_globals_application_supportemail_global,
@@ -1506,6 +1542,7 @@ module.exports = {
 	sampleapp_pages_application_support_page : sampleapp_pages_application_support_page,
 	sampleapp_pages_application_useractivitylog_page : sampleapp_pages_application_useractivitylog_page,
 	sampleapp_pages_customers_detail_page : sampleapp_pages_customers_detail_page,
+	sampleapp_pages_customers_edit_page : sampleapp_pages_customers_edit_page,
 	sampleapp_pages_customers_list_page : sampleapp_pages_customers_list_page,
 	sampleapp_pages_errorarchive_errorarchive_detail_page : sampleapp_pages_errorarchive_errorarchive_detail_page,
 	sampleapp_pages_errorarchive_errorarchive_list_page : sampleapp_pages_errorarchive_errorarchive_list_page,
@@ -1773,4 +1810,3 @@ module.exports = /*#__PURE__*/JSON.parse('{"compilerOptions":{"module":"esnext",
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.js.map
