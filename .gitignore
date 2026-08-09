@@ -6,4 +6,3 @@
 **/.vscode/ # Used to save user preference
 **/.project.json # Used to save last MDK deployment settings
 
-.build/
