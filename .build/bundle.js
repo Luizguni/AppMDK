@@ -869,6 +869,26 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":true,"_Type
 
 /***/ },
 
+/***/ "./build.definitions/sampleapp/Pages/Customers_Detail.page"
+/*!*****************************************************************!*\
+  !*** ./build.definitions/sampleapp/Pages/Customers_Detail.page ***!
+  \*****************************************************************/
+(module) {
+
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0","ObjectHeader":{"Subhead":"{FirstName}","Footnote":"{EmailAddress}","Description":"{CustomerID}","StatusText":"{PhoneNumber}","DetailImage":"sap-icon://customer","DetailImageIsCircular":false,"BodyText":"{DateOfBirth}","HeadlineText":"{LastName}","StatusPosition":"Stacked","StatusImagePosition":"Leading","SubstatusImagePosition":"Leading"},"Visible":true},{"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Value":"{HouseNumber} {Street}","_Type":"KeyValue.Type.Item","_Name":"KeyValue0","KeyName":"Address","Visible":true},{"Value":"{City}","_Type":"KeyValue.Type.Item","_Name":"KeyValue1","KeyName":"City","Visible":true},{"Value":"{PostalCode}","_Type":"KeyValue.Type.Item","_Name":"KeyValue2","KeyName":"Postal Code","Visible":true},{"Value":"{Country}","_Type":"KeyValue.Type.Item","_Name":"KeyValue3","KeyName":"Country","Visible":true}],"MaxItemCount":1,"Layout":{"NumberOfColumns":2}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"Customers_Detail","ActionBar":{"Items":[],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar"},"DesignTimeTarget":{"Service":"/sampleapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"}}
+
+/***/ },
+
+/***/ "./build.definitions/sampleapp/Pages/Customers_List.page"
+/*!***************************************************************!*\
+  !*** ./build.definitions/sampleapp/Pages/Customers_List.page ***!
+  \***************************************************************/
+(module) {
+
+module.exports = {"Controls":[{"Section":{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.ContactCell","Target":{"Service":"/sampleapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Name":"SectionContactCell0","Visible":true,"EmptySection":{"FooterVisible":false},"ContactCell":{"Visible":true,"DetailImage":"res://contact.png","BadgeImage":"res://contact.png","Headline":"{LastName}","Subheadline":"{FirstName}","Description":"{City}","OnPress":"/sampleapp/Actions/NavToCustomers_Detail.action","ActivityItems":[{"_Name":"SectionContactCell0ActivityItems1","ActivityType":"Phone","ActivityValue":"{PhoneNumber}"},{"_Name":"SectionContactCell0ActivityItems0","ActivityType":"Email","ActivityValue":"{EmailAddress}"}],"ContextMenu":{"PerformFirstActionWithFullSwipe":true}},"DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"DetailImageIsCircular":true,"UseHeadlineForDetailImage":false,"Search":{"Enabled":true,"BarcodeScanner":true}},"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","Target":{"Service":"/sampleapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Name":"SectionedTable0"}],"_Type":"Page","_Name":"Customers_List","ActionBar":{"Items":[],"_Name":"ActionBar5","_Type":"Control.Type.ActionBar","Caption":"Customers"}}
+
+/***/ },
+
 /***/ "./build.definitions/sampleapp/Pages/ErrorArchive/ErrorArchive_Detail.page"
 /*!*********************************************************************************!*\
   !*** ./build.definitions/sampleapp/Pages/ErrorArchive/ErrorArchive_Detail.page ***!
@@ -895,7 +915,7 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
   \*****************************************************/
 (module) {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Name":"SectionedTable0","_Type":"Control.Type.SectionedTable","Sections":[]}],"_Name":"Main","_Type":"Page","ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/sampleapp/Actions/Application/UserMenuPopover.action","_Type":"Control.Type.ActionBarItem"}],"_Name":"ActionBar1","Caption":"Main","PreferredCaptionSize":"Large","_Type":"Control.Type.ActionBar"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable1","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"Customers","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/sampleapp/Actions/NavToCustomers_List.action"}]}]}],"_Type":"Page","_Name":"Main","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"User Menu","Width":18,"Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/sampleapp/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar","Caption":"Main","PreferredCaptionSize":"Large"}}
 
 /***/ },
 
@@ -1169,6 +1189,26 @@ module.exports = {"Animated":true,"CompletionMessage":"$(L,Action_Log_Upload_Com
 
 /***/ },
 
+/***/ "./build.definitions/sampleapp/Actions/NavToCustomers_Detail.action"
+/*!**************************************************************************!*\
+  !*** ./build.definitions/sampleapp/Actions/NavToCustomers_Detail.action ***!
+  \**************************************************************************/
+(module) {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_Detail"},"PageToOpen":"/sampleapp/Pages/Customers_Detail.page"}
+
+/***/ },
+
+/***/ "./build.definitions/sampleapp/Actions/NavToCustomers_List.action"
+/*!************************************************************************!*\
+  !*** ./build.definitions/sampleapp/Actions/NavToCustomers_List.action ***!
+  \************************************************************************/
+(module) {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_List"},"PageToOpen":"/sampleapp/Pages/Customers_List.page"}
+
+/***/ },
+
 /***/ "./build.definitions/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/CloseOffline.action"
 /*!******************************************************************************************************!*\
   !*** ./build.definitions/sampleapp/Actions/com_sap_edm_sampleservice_v4/Service/CloseOffline.action ***!
@@ -1373,6 +1413,8 @@ let sampleapp_actions_logging_loguploadfailure_action = __webpack_require__(/*! 
 let sampleapp_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./sampleapp/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/sampleapp/Actions/Logging/LogUploadSuccessful.action")
 let sampleapp_actions_logging_uploadlog_action = __webpack_require__(/*! ./sampleapp/Actions/Logging/UploadLog.action */ "./build.definitions/sampleapp/Actions/Logging/UploadLog.action")
 let sampleapp_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./sampleapp/Actions/Logging/UploadLogProgress.action */ "./build.definitions/sampleapp/Actions/Logging/UploadLogProgress.action")
+let sampleapp_actions_navtocustomers_detail_action = __webpack_require__(/*! ./sampleapp/Actions/NavToCustomers_Detail.action */ "./build.definitions/sampleapp/Actions/NavToCustomers_Detail.action")
+let sampleapp_actions_navtocustomers_list_action = __webpack_require__(/*! ./sampleapp/Actions/NavToCustomers_List.action */ "./build.definitions/sampleapp/Actions/NavToCustomers_List.action")
 let sampleapp_globals_application_appdefinition_version_global = __webpack_require__(/*! ./sampleapp/Globals/Application/AppDefinition_Version.global */ "./build.definitions/sampleapp/Globals/Application/AppDefinition_Version.global")
 let sampleapp_globals_application_applicationname_global = __webpack_require__(/*! ./sampleapp/Globals/Application/ApplicationName.global */ "./build.definitions/sampleapp/Globals/Application/ApplicationName.global")
 let sampleapp_globals_application_supportemail_global = __webpack_require__(/*! ./sampleapp/Globals/Application/SupportEmail.global */ "./build.definitions/sampleapp/Globals/Application/SupportEmail.global")
@@ -1383,6 +1425,8 @@ let sampleapp_package__lock_json = __webpack_require__(/*! ./sampleapp/package-l
 let sampleapp_pages_application_about_page = __webpack_require__(/*! ./sampleapp/Pages/Application/About.page */ "./build.definitions/sampleapp/Pages/Application/About.page")
 let sampleapp_pages_application_support_page = __webpack_require__(/*! ./sampleapp/Pages/Application/Support.page */ "./build.definitions/sampleapp/Pages/Application/Support.page")
 let sampleapp_pages_application_useractivitylog_page = __webpack_require__(/*! ./sampleapp/Pages/Application/UserActivityLog.page */ "./build.definitions/sampleapp/Pages/Application/UserActivityLog.page")
+let sampleapp_pages_customers_detail_page = __webpack_require__(/*! ./sampleapp/Pages/Customers_Detail.page */ "./build.definitions/sampleapp/Pages/Customers_Detail.page")
+let sampleapp_pages_customers_list_page = __webpack_require__(/*! ./sampleapp/Pages/Customers_List.page */ "./build.definitions/sampleapp/Pages/Customers_List.page")
 let sampleapp_pages_errorarchive_errorarchive_detail_page = __webpack_require__(/*! ./sampleapp/Pages/ErrorArchive/ErrorArchive_Detail.page */ "./build.definitions/sampleapp/Pages/ErrorArchive/ErrorArchive_Detail.page")
 let sampleapp_pages_errorarchive_errorarchive_list_page = __webpack_require__(/*! ./sampleapp/Pages/ErrorArchive/ErrorArchive_List.page */ "./build.definitions/sampleapp/Pages/ErrorArchive/ErrorArchive_List.page")
 let sampleapp_pages_main_page = __webpack_require__(/*! ./sampleapp/Pages/Main.page */ "./build.definitions/sampleapp/Pages/Main.page")
@@ -1449,6 +1493,8 @@ module.exports = {
 	sampleapp_actions_logging_loguploadsuccessful_action : sampleapp_actions_logging_loguploadsuccessful_action,
 	sampleapp_actions_logging_uploadlog_action : sampleapp_actions_logging_uploadlog_action,
 	sampleapp_actions_logging_uploadlogprogress_action : sampleapp_actions_logging_uploadlogprogress_action,
+	sampleapp_actions_navtocustomers_detail_action : sampleapp_actions_navtocustomers_detail_action,
+	sampleapp_actions_navtocustomers_list_action : sampleapp_actions_navtocustomers_list_action,
 	sampleapp_globals_application_appdefinition_version_global : sampleapp_globals_application_appdefinition_version_global,
 	sampleapp_globals_application_applicationname_global : sampleapp_globals_application_applicationname_global,
 	sampleapp_globals_application_supportemail_global : sampleapp_globals_application_supportemail_global,
@@ -1459,6 +1505,8 @@ module.exports = {
 	sampleapp_pages_application_about_page : sampleapp_pages_application_about_page,
 	sampleapp_pages_application_support_page : sampleapp_pages_application_support_page,
 	sampleapp_pages_application_useractivitylog_page : sampleapp_pages_application_useractivitylog_page,
+	sampleapp_pages_customers_detail_page : sampleapp_pages_customers_detail_page,
+	sampleapp_pages_customers_list_page : sampleapp_pages_customers_list_page,
 	sampleapp_pages_errorarchive_errorarchive_detail_page : sampleapp_pages_errorarchive_errorarchive_detail_page,
 	sampleapp_pages_errorarchive_errorarchive_list_page : sampleapp_pages_errorarchive_errorarchive_list_page,
 	sampleapp_pages_main_page : sampleapp_pages_main_page,

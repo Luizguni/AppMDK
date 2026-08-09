@@ -5,29 +5,66 @@
 				"ShowAllFilters": false,
 				"_Type": "Control.Type.FilterFeedbackBar"
 			},
-			"_Name": "SectionedTable0",
 			"_Type": "Control.Type.SectionedTable",
-			"Sections": []
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Leading"
+					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable1",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton0",
+							"Title": "Customers",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"Image": "sap-icon://customer",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/sampleapp/Actions/NavToCustomers_List.action"
+						}
+					]
+				}
+			]
 		}
 	],
-	"_Name": "Main",
 	"_Type": "Page",
+	"_Name": "Main",
 	"ActionBar": {
 		"Items": [
 			{
+				"_Type": "Control.Type.ActionBarItem",
 				"_Name": "ActionBarItem0",
 				"Caption": "User Menu",
+				"Width": 18,
 				"Icon": "sap-icon://customer",
 				"Position": "Right",
 				"IsIconCircular": false,
 				"Visible": true,
-				"OnPress": "/sampleapp/Actions/Application/UserMenuPopover.action",
-				"_Type": "Control.Type.ActionBarItem"
+				"OnPress": "/sampleapp/Actions/Application/UserMenuPopover.action"
 			}
 		],
 		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar",
 		"Caption": "Main",
-		"PreferredCaptionSize": "Large",
-		"_Type": "Control.Type.ActionBar"
+		"PreferredCaptionSize": "Large"
 	}
 }

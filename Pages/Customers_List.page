@@ -26,11 +26,17 @@
 					"Headline": "{LastName}",
 					"Subheadline": "{FirstName}",
 					"Description": "{City}",
+					"OnPress": "/sampleapp/Actions/NavToCustomers_Detail.action",
 					"ActivityItems": [
 						{
 							"_Name": "SectionContactCell0ActivityItems1",
 							"ActivityType": "Phone",
 							"ActivityValue": "{PhoneNumber}"
+						},
+						{
+							"_Name": "SectionContactCell0ActivityItems0",
+							"ActivityType": "Email",
+							"ActivityValue": "{EmailAddress}"
 						}
 					],
 					"ContextMenu": {
@@ -54,7 +60,7 @@
 			},
 			"_Type": "Control.Type.SectionedTable",
 			"Target": {
-				"Service": "com_sap_edm_sampleservice_v4.service",
+				"Service": "/sampleapp/Services/com_sap_edm_sampleservice_v4.service",
 				"EntitySet": "Customers"
 			},
 			"_Name": "SectionedTable0"
@@ -64,7 +70,7 @@
 	"_Name": "Customers_List",
 	"ActionBar": {
 		"Items": [],
-		"_Name": "ActionBar3",
+		"_Name": "ActionBar5",
 		"_Type": "Control.Type.ActionBar",
 		"Caption": "Customers"
 	}
