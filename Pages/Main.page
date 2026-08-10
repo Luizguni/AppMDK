@@ -48,6 +48,11 @@
 	],
 	"_Type": "Page",
 	"_Name": "Main",
+	"PullDown": {
+		"Styles": {
+			"BackgroundColor": "#ffffff"
+		}
+	},
 	"ActionBar": {
 		"Items": [
 			{
